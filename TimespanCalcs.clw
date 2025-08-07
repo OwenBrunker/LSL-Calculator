@@ -78,7 +78,7 @@ returnValue             long
         if returnValue > 0
             if month(EndDate) < month(StartDate)
                 returnValue -= 1
-            elsif day(EndDate) < day(StartDate)
+            elsif month(EndDate) = month(StartDate) and day(EndDate) < day(StartDate)
                 returnValue -= 1
             end
         end
