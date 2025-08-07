@@ -1,0 +1,100 @@
+Started 
+Heap handle: 07CA0000
+start process C:\Project\C12TestProjects\LSL_Calculator\LSL_Calculator\LSL_Calculator.Exe
+Command line :> "C:\Clarion11.1\bin\Cladb.exe"  -s Debug  -c "C:\Users\obrunker\AppData\Roaming\SoftVelocity\Clarion\11.0"  "C:\Project\C12TestProjects\LSL_Calculator\LSL_Calculator\LSL_Calculator.Exe" 
+Command line :> "C:\Project\C12TestProjects\LSL_Calculator\LSL_Calculator\LSL_Calculator.Exe" 
+Redirection file :> 
+CREATE_PROCESS_DEBUG_EVENT  ! No image name found
+g.debug_name C:\Project\C12TestProjects\LSL_Calculator\LSL_Calculator\LSL_Calculator.Exe
+BaseOfImage                00BE0000
+CREATE_PROCESS_DEBUG_EVENT: process main thread tid=00001694
+thread handle=00000628
+ntdll.dll Loaded at: 77DA0000
+No debug information
+hmpalert.dll Loaded at: 75680000
+No debug information
+KERNEL32.dll Loaded at: 75C30000
+No debug information
+KERNELBASE.dll Loaded at: 77210000
+No debug information
+ClaRUN.dll Loaded at: 63D90000
+WslDb$$NotifyDebugger 63E7763C
+ADVAPI32.dll Loaded at: 75810000
+No debug information
+msvcrt.dll Loaded at: 77770000
+No debug information
+SECHOST.dll Loaded at: 77D00000
+No debug information
+RPCRT4.dll Loaded at: 767D0000
+No debug information
+COMDLG32.dll Loaded at: 77BA0000
+No debug information
+msvcp_win.dll Loaded at: 75D40000
+No debug information
+ucrtbase.dll Loaded at: 77A80000
+No debug information
+combase.dll Loaded at: 774E0000
+No debug information
+SHCORE.dll Loaded at: 76400000
+No debug information
+USER32.dll Loaded at: 778B0000
+No debug information
+win32u.dll Loaded at: 75BA0000
+No debug information
+GDI32.dll Loaded at: 77CD0000
+No debug information
+gdi32full.dll Loaded at: 766D0000
+No debug information
+SHLWAPI.dll Loaded at: 758A0000
+No debug information
+SHELL32.dll Loaded at: 75DD0000
+No debug information
+WinTypes.dll Loaded at: 75A30000
+No debug information
+ole32.dll Loaded at: 76D60000
+No debug information
+OLEAUT32.dll Loaded at: 77160000
+No debug information
+COMCTL32.dll Loaded at: 63F50000
+No debug information
+MPR.dll Loaded at: 6CC70000
+No debug information
+oledlg.dll Loaded at: 68080000
+No debug information
+WINSPOOL.DRV Loaded at: 67FE0000
+No debug information
+CFGMGR32.dll Loaded at: 71E10000
+No debug information
+IMM32.dll Loaded at: 77130000
+No debug information
+MSIMG32.dll Loaded at: 6CCB0000
+No debug information
+CREATE_THREAD_DEBUG_EVENT: tid=00004314
+thread handle=000006BC
+UxTheme.dll Loaded at: 69100000
+No debug information
+MSCTF.dll Loaded at: 75910000
+No debug information
+VERSION.dll Loaded at: 755F0000
+No debug information
+UNLOAD_DLL_DEBUG_EVENT: BaseOfDll 755F0000
+TextShaping.dll Loaded at: 67A20000
+No debug information
+USP10.dll Loaded at: 698E0000
+No debug information
+AppCore.dll Loaded at: 74BF0000
+No debug information
+bcryptPrimitives.dll Loaded at: 77840000
+No debug information
+TextInputFramework.dll Loaded at: 68750000
+No debug information
+CoreMessaging.dll Loaded at: 68670000
+No debug information
+CoreUIComponents.dll Loaded at: 683D0000
+No debug information
+CRYPTBASE.dll Loaded at: 72880000
+No debug information
+CREATE_THREAD_DEBUG_EVENT: tid=0000430C
+thread handle=0000073C
+CREATE_THREAD_DEBUG_EVENT: tid=000037A0
+thread handle=00000310
