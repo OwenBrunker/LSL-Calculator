@@ -76,10 +76,13 @@ returnValue             long
     code
         returnValue = year(EndDate) - year(StartDate)
         if returnValue > 0
-            if month(EndDate) < month(StartDate)
+            case month(EndDate) - month(StartDate)
+            of -12 to -1
                 returnValue -= 1
-            elsif month(EndDate) = month(StartDate) and day(EndDate) < day(StartDate)
-                returnValue -= 1
+            of 0
+                if day(EndDate) < day(StartDate)
+                    returnValue -= 1
+                end
             end
         end
         
