@@ -75,6 +75,8 @@ CalculateYears          function(long StartDate, long EndDate)
 returnValue             long
     code
         returnValue = year(EndDate) - year(StartDate)
+        
+        ! As per suggestion by Carl Barns
         if returnValue > 0
             case month(EndDate) - month(StartDate)
             of -12 to -1
